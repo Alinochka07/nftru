@@ -14,7 +14,7 @@ export const Header = () => {
           <input className="bg-transparent border border-1 border-secondary rounded-pill h-100 ps-5 me-2" style={{width: '264px'}} placeholder="Поиск..."/>
           <button className="border border-warning bg-transparent rounded-pill h-100 w-25 me-2 fw-bold">Вход</button>
           <button className="border border-warning bg-warning rounded-pill h-100 w-25 fw-bold">Регистрация</button>
-          <div className="position-absolute d-flex flex-column bg-white border border-1 border-secondary rounded z-3" style={{width: '568px', height: '203px', marginTop: '-41px', marginLeft: '-17px'}}>
+          <div className="position-absolute d-flex flex-column bg-white border border-1 border-secondary rounded z-3" style={{width: '568px', height: '203px', marginTop: '-41px', marginLeft: '-12px'}}>
             <div className="d-flex align-flex-start" style={{height: '53px'}}>
               <img alt="search-icon" className="ms-3 mt-3" style={{width: '24px', height: '24px'}} src={search_icon}/>
               <p className="mt-2 ms-2 pt-2">Анастасия</p>
