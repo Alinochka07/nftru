@@ -29,8 +29,8 @@ export const Footer = () => {
             <div className='border border-dark mt-5' style={{width: '707px', height: '0'}}>
             </div>
             <div className='d-flex justify-content-center align-items-center' style={{width: '707px'}}>
-                <img style={{width: '66px', height: '61px', marginTop: '-27px'}} src={star} alt='logo-star'/></div>
-            <p className='text-secondary' style={{fontFamily: 'Rubik'}}>@ tnft.ru Company, Inc</p>
+                <img style={{width: '66px', height: '61px', marginTop: '-35px'}} src={star} alt='logo-star'/></div>
+            <p className='text-secondary' style={{fontSize: '18px', fontWeight: 300}}>@ tnft.ru Company, Inc</p>
         </div>
     );
 };

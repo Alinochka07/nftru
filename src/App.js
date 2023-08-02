@@ -7,13 +7,14 @@ import bg_svechenie_bottom from "./images/svechenie-bottom.png";
 import { CardsList } from "./components/CardsList/CardsList";
 import { Pagination } from "./components/Pagination/Pagination";
 import { Footer } from "./components/Footer/Footer";
+import "./styles/App.css";
 
 
 function App() {
   return (
     <div className="container d-flex justify-content-center fw-wrap">
       <div className="d-flex flex-wrap justify-content-center" 
-        style={{width: '54vw', 
+        style={{width: '768px', 
           backgroundImage: `url('${bg_svechenie}'), url('${bg_svechenie_mirror}'), url('${bg_svechenie_bottom}')`, 
           backgroundRepeat: 'no-repeat, no-repeat, no-repeat', 
           backgroundPosition: 'top left, right, bottom'}}>
